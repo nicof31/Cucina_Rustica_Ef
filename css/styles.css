@@ -348,14 +348,14 @@ main .textos_main_recetario {
 }
 
 .title_recetarios {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  font-size: 22px;
   color: #b73413;
   margin-top: 10px;
   margin-left: 30px;
-  font-weight: bold;
-  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .recetarios_contenedor {
@@ -390,6 +390,32 @@ main .textos_main_recetario {
   align-items: center;
 }
 
+.textos_section_recetarios {
+  display: inline-block;
+  width: 100%;
+  min-height: 75px;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+  background-color: rgba(226, 216, 204, 0.89);
+  margin-bottom: 1px;
+  padding: 15px;
+}
+
+.textos_section_recetarios h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.textos_section_recetarios p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+}
+
 @media (min-width: 768px) {
   .recetarios_contenedor .card_recetarios {
     width: 350px;
@@ -409,6 +435,16 @@ main .textos_main_recetario {
   .title_recetarios {
     font-size: 35px;
   }
+
+  .textos_section_recetarios h3 {  
+    font-size: 25px;
+  }
+
+  .textos_section_recetarios p {  
+    font-size: 15px;
+  }
+  
+
 }
 
 @media (min-width: 1024px) {
@@ -430,8 +466,8 @@ main .textos_main_recetario {
   .title_recetarios {
     font-size: 50px;
   }
-}
 
+  /*
 #sugerencias_chef {
   grid-area: novedades;
   margin: 0;
@@ -443,44 +479,15 @@ main .textos_main_recetario {
   align-items: center;
   flex-wrap: wrap;
   display: flex;
-}
-
-.textos_section_recetarios {
-  display: inline-block;
-  width: 100%;
-  min-height: 75px;
-  align-items: center;
-  justify-content: end;
-  text-align: center;
-  background-color: rgba(226, 216, 204, 0.89);
-  margin-bottom: 1px;
-  padding: 15px;
-}
+}*/
 
 .textos_section_recetarios h3 {
-  font-size: 20px;
+  font-size: 35px;
 }
 .textos_section_recetarios p {
-  font-size: 10px;
+  font-size: 25px;
 }
 
-@media (min-width: 768px) {
-  .textos_section_recetarios h3 {
-    font-size: 25px;
-  }
-  .textos_section_recetarios p {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .textos_section_recetarios h3 {
-    font-size: 30px;
-  }
-  .textos_section_recetarios p {
-    font-size: 20px;
-  }
-}
 
 /****** FIN PAGINA RECETARIO ******/
 
