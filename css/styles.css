@@ -222,7 +222,7 @@ main {
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 25px;
   -webkit-text-stroke: 0.1px black;
 }
 
@@ -265,7 +265,7 @@ main {
   }
 
   .boton_main {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .title_novedades h3 {
