@@ -236,7 +236,7 @@ main {
 .title_novedades h3 {
   font-family: "Roboto", sans-serif;
   font-style: bold;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
