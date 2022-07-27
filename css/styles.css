@@ -444,7 +444,6 @@ main .textos_main_recetario {
     font-size: 15px;
   }
   
-
 }
 
 @media (min-width: 1024px) {
@@ -841,6 +840,7 @@ main .textos_main_hiciste_un_postre {
 }
 
 @media (min-width: 768px) {
+
   .textos_main_hiciste_un_postre h2 {
     font-size: 35px;
   }
@@ -848,9 +848,11 @@ main .textos_main_hiciste_un_postre {
   .img_main_hiciste_un_postre {
     height: 60vh;
   }
+
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px){ 
+
   .textos_main_hiciste_un_postre h2 {
     font-size: 40px;
   }
@@ -860,4 +862,4 @@ main .textos_main_hiciste_un_postre {
   }
 }
 
-/****** FIN SUB PAGES  TE HICISTE UN POSTRE ***/
+/****** SUB PAGES ******/
