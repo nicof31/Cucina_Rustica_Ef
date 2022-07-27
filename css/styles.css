@@ -271,11 +271,9 @@ main {
   .title_novedades h3 {
     font-size: 60px;
   }
-
 }
 
 @media (min-width: 1024px) {
- 
   .logo_cucina {
     height: 70px;
   }
@@ -296,7 +294,6 @@ main {
   .title_novedades h3 {
     font-size: 80px;
   }
-  
 }
 
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
@@ -436,14 +433,13 @@ main .textos_main_recetario {
     font-size: 35px;
   }
 
-  .textos_section_recetarios h3 {  
+  .textos_section_recetarios h3 {
     font-size: 25px;
   }
 
-  .textos_section_recetarios p {  
+  .textos_section_recetarios p {
     font-size: 15px;
   }
-  
 }
 
 @media (min-width: 1024px) {
@@ -480,14 +476,13 @@ main .textos_main_recetario {
   display: flex;
 }*/
 
-.textos_section_recetarios h3 {
-  font-size: 35px;
+  .textos_section_recetarios h3 {
+    font-size: 35px;
+  }
+  .textos_section_recetarios p {
+    font-size: 25px;
+  }
 }
-.textos_section_recetarios p {
-  font-size: 25px;
-}
-
-
 /****** FIN PAGINA RECETARIO ******/
 
 /****PAGES GALERIA TEMATICA****/
@@ -840,7 +835,6 @@ main .textos_main_hiciste_un_postre {
 }
 
 @media (min-width: 768px) {
-
   .textos_main_hiciste_un_postre h2 {
     font-size: 35px;
   }
@@ -848,11 +842,9 @@ main .textos_main_hiciste_un_postre {
   .img_main_hiciste_un_postre {
     height: 60vh;
   }
-
 }
 
-@media (min-width: 1024px){ 
-
+@media (min-width: 1024px) {
   .textos_main_hiciste_un_postre h2 {
     font-size: 40px;
   }
