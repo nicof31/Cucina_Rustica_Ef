@@ -499,13 +499,19 @@ main .textos_main_galeria_tematica {
 }
 
 .textos_main_galeria_tematica h2 {
-  font-size: 25px;
   color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .textos_main_galeria_tematica h3 {
-  font-size: 20px;
-  color: rgb(4, 27, 46);
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px; 
   text-shadow: 0.2em 0.1em 0.1em rgb(140, 145, 146);
   text-align: center;
 }
@@ -524,14 +530,14 @@ main .textos_main_galeria_tematica {
 }
 
 .title_galeria_tematica {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  font-size: 30px;
   color: #b73413;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-left: 30px;
-  font-weight: bold;
-  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .galeria_tematica_contenedor {
@@ -580,6 +586,31 @@ main .textos_main_galeria_tematica {
   font-weight: 300;
 }
 
+.subtexto_contenedor_galeria {
+  display: inline-block;
+  width: 100%;
+  min-height: 75px;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+  background-color: rgba(226, 216, 204, 0.89);
+  margin-bottom: 1px;
+  padding: 15px;
+}
+
+.subtexto_contenedor_galeria h4 {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+.subtexto_contenedor_galeria p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+}
+
 @media (min-width: 768px) {
   .textos_main_galeria_tematica h2 {
     font-size: 35px;
@@ -591,6 +622,10 @@ main .textos_main_galeria_tematica {
 
   .title_galeria_tematica {
     font-size: 40px;
+  }
+
+  .subtexto_contenedor_galeria h4 {
+
   }
 }
 
@@ -631,6 +666,11 @@ main .textos_main_galeria_tematica {
   .subtexto_contenedor_galeria h4 {
     font-size: 25px;
   }
+
+  .subtexto_contenedor_galeria p {
+    font-size: 25px;
+  }
+
   .subtexto_contenedor_galeria p {
     font-size: 15px;
   }
@@ -640,8 +680,13 @@ main .textos_main_galeria_tematica {
   .subtexto_contenedor_galeria h4 {
     font-size: 30px;
   }
+
   .subtexto_contenedor_galeria p {
-    font-size: 20px;
+    font-size: 35px;
+  }
+
+  .subtexto_contenedor_galeria p {
+    font-size: 25px;
   }
 }
 
