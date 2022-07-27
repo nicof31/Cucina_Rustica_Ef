@@ -511,7 +511,7 @@ main .textos_main_galeria_tematica {
   font-family: "Roboto", sans-serif;
   font-style: bold;
   font-weight: 600;
-  font-size: 20px; 
+  font-size: 20px;
   text-shadow: 0.2em 0.1em 0.1em rgb(140, 145, 146);
   text-align: center;
 }
@@ -625,7 +625,10 @@ main .textos_main_galeria_tematica {
   }
 
   .subtexto_contenedor_galeria h4 {
-
+    font-size: 25px;
+  }
+  .subtexto_contenedor_galeria p {
+    font-size: 15px;
   }
 }
 
@@ -641,50 +644,10 @@ main .textos_main_galeria_tematica {
   .title_galeria_tematica {
     font-size: 50px;
   }
-}
 
-.subtexto_contenedor_galeria {
-  display: inline-block;
-  width: 100%;
-  min-height: 75px;
-  align-items: center;
-  justify-content: end;
-  text-align: center;
-  background-color: rgba(226, 216, 204, 0.89);
-  margin-bottom: 1px;
-  padding: 15px;
-}
-
-.subtexto_contenedor_galeria h4 {
-  font-size: 20px;
-}
-.subtexto_contenedor_galeria p {
-  font-size: 10px;
-}
-
-@media (min-width: 768px) {
   .subtexto_contenedor_galeria h4 {
-    font-size: 25px;
-  }
-
-  .subtexto_contenedor_galeria p {
-    font-size: 25px;
-  }
-
-  .subtexto_contenedor_galeria p {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .subtexto_contenedor_galeria h4 {
-    font-size: 30px;
-  }
-
-  .subtexto_contenedor_galeria p {
     font-size: 35px;
   }
-
   .subtexto_contenedor_galeria p {
     font-size: 25px;
   }
