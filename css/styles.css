@@ -199,7 +199,7 @@ main {
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 30px;
   color: #f2f5f8;
 }
 
@@ -207,7 +207,7 @@ main {
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 25px;
   color: #f2f5f8;
 }
 
@@ -222,7 +222,7 @@ main {
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 25px;
   -webkit-text-stroke: 0.1px black;
 }
 
