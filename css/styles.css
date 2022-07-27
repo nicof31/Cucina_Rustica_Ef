@@ -52,7 +52,6 @@
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
   }
-  /*.footerFlex{display: flex;justify-content: space-around;}*/
 }
 
 .comentario_fondo {
@@ -159,15 +158,6 @@ body {
     "novedades"
     "footer";
 }
-/*
-#header_sin_boot {
-  grid-area: cabecera;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-}*/
 
 .logo_cucina {
   width: auto;
@@ -236,81 +226,6 @@ main {
   -webkit-text-stroke: 0.1px black;
 }
 
-/*
-main .textos_main_principal {
-  display: flex;
-  width: 100%;
-  height: 250px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  letter-spacing: 0.03em;
-  line-height: 1.6;
-}
-.textos_main_principal h2 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  -webkit-text-stroke: 0.2px black;
-  margin-top: 5px;
-}
-*/
-/**-----ANIMACION TEXTO PRINCIPAL---
-.textos_main_principal h2 {
-  animation: fadeInDown;
-  animation-duration: 2s;
-}-**/
-/**----------------------
-
-.textos_main_principal h3 {
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  /*color: rgb(100, 188, 250);*/
-/*
-  -webkit-text-stroke: 0.2px black;
-  margin-top: 10px;
-}**/
-
-/**-----ANIMACION TEXTO PRINCIPAL---
-.textos_main_principal h3 {
-  animation: jackInTheBox;
-  animation-duration: 4s;
-}-**/
-/**----------------------
-
-.boton_main_principal {
-  font-size: 15px;
-  border: solid 1px hsla(180, 100%, 50%, 0.516);
-  color: #fff;
-  background-color: hsla(180, 100%, 50%, 0.29);
-  font-weight: bold;
-  text-decoration: none;
-  justify-content: end;
-  text-align: center;
-  margin-top: 50px;
-}**/
-
-/**-----ANIMACION TEXTO PRINCIPAL----*
-.boton_main_principal {
-  animation: fadeInBottomRight;
-  animation-duration: 6s;
-}
-
-.boton_main_principal:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-  transition: 1s;
-}
-/**----------------------**/
-
-/* Wave 
-.wave_i {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}*/
-
 .title_novedades {
   text-decoration: none;
   justify-content: center;
@@ -322,11 +237,6 @@ main .textos_main_principal {
   font-family: "Roboto", sans-serif;
   font-style: bold;
   font-weight: 400;
-  /*
-  font-weight: bold;
-  letter-spacing: 0.01em;
-  line-height: 1;
-  -webkit-text-stroke: 0.8px black;*/
 }
 
 @media (min-width: 768px) {
@@ -338,11 +248,6 @@ main .textos_main_principal {
       "footer footer";
   }
 
-  /*
-  #header_sin_boot {
-    flex-direction: row;
-  }
-*/
   .logo_cucina {
     height: 50px;
   }
@@ -367,32 +272,10 @@ main .textos_main_principal {
     font-size: 50px;
   }
 
-  /*
-  .textos_main_principal h2 {
-    font-size: 40px;
-    -webkit-text-stroke: 0.8px black;
-    margin-top: 5px;
-  }
-
-  .textos_main_principal h3 {
-    font-size: 35px;
-    align-items: center;
-    -webkit-text-stroke: 0.2px black;
-    margin-top: 5px;
-  }
-
-  .boton_main_principal {
-    margin-top: 40px;
-  }*/
 }
 
 @media (min-width: 1024px) {
-  /*
-  #header_sin_boot {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }*/
+ 
   .logo_cucina {
     height: 70px;
   }
@@ -413,23 +296,7 @@ main .textos_main_principal {
   .title_novedades h3 {
     font-size: 80px;
   }
-  /*
-  .textos_main_principal h2 {
-    font-size: 40px;
-    margin-top: 150px;
-  }
-
-  .textos_main_principal h3 {
-    font-size: 35px;
-    align-items: center;
-    margin-top: 50px;
-  }
-
-  .boton_main_principal {
-    font-size: 25px;
-    -webkit-text-stroke: 0.8px black;
-    margin-top: 40px;
-  }*/
+  
 }
 
 /****** FIN PAGINA PRINCPAL (INDEX) ******/
