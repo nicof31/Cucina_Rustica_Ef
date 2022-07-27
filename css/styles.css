@@ -199,7 +199,7 @@ main {
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
   color: #f2f5f8;
 }
 
@@ -207,7 +207,7 @@ main {
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 35px;
   color: #f2f5f8;
 }
 
@@ -222,7 +222,7 @@ main {
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 35px;
   -webkit-text-stroke: 0.1px black;
 }
 
@@ -254,18 +254,18 @@ main {
 
   .text_main h1 {
     -webkit-text-stroke: 1px #9a2609;
-    font-size: 40px;
+    font-size: 60px;
     font-style: bold;
   }
 
   .text_main h3 {
     -webkit-text-stroke: 1px #9a2609;
-    font-size: 30px;
+    font-size: 50px;
     font-style: bold;
   }
 
   .boton_main {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .title_novedades h3 {
@@ -281,15 +281,15 @@ main {
   }
 
   .text_main h1 {
-    font-size: 60px;
+    font-size: 80px;
   }
 
   .text_main h3 {
-    font-size: 50px;
+    font-size: 70px;
   }
 
   .boton_main {
-    font-size: 30px;
+    font-size: 50px;
     padding: 3;
   }
 
