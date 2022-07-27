@@ -327,8 +327,11 @@ main .textos_main_recetario {
 }
 
 .textos_main_recetario h2 {
-  font-size: 20px;
   color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 #recetarios {
@@ -420,7 +423,7 @@ main .textos_main_recetario {
     height: 100%;
   }
 
-  .textos_main_recetarioh2 {
+  .textos_main_recetario h2 {
     font-size: 40px;
   }
 
