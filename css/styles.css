@@ -324,11 +324,11 @@ main .textos_main_recetario {
 }
 
 .textos_main_recetario h2 {
-  color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Caveat", cursive;
   font-style: bold;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 35px;
+  color: black;
 }
 
 #recetarios {
@@ -426,7 +426,7 @@ main .textos_main_recetario {
   }
 
   .textos_main_recetario h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .title_recetarios {
@@ -455,7 +455,7 @@ main .textos_main_recetario {
   }
 
   .textos_main_recetario h2 {
-    font-size: 40px;
+    font-size: 70px;
   }
 
   .title_recetarios {
@@ -485,19 +485,19 @@ main .textos_main_galeria_tematica {
 }
 
 .textos_main_galeria_tematica h2 {
-  color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Caveat", cursive;
   font-style: bold;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 35px;
+  color: black;
 }
 
 .textos_main_galeria_tematica h3 {
   color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Caveat", cursive;
   font-style: bold;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   text-shadow: 0.2em 0.1em 0.1em rgb(140, 145, 146);
   text-align: center;
 }
@@ -599,11 +599,11 @@ main .textos_main_galeria_tematica {
 
 @media (min-width: 768px) {
   .textos_main_galeria_tematica h2 {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .textos_main_galeria_tematica h3 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .title_galeria_tematica {
@@ -620,11 +620,11 @@ main .textos_main_galeria_tematica {
 
 @media (min-width: 1024px) {
   .textos_main_galeria_tematica h2 {
-    font-size: 40px;
+    font-size: 70px;
   }
 
   .textos_main_galeria_tematica h3 {
-    font-size: 35px;
+    font-size: 60px;
   }
 
   .title_galeria_tematica {
