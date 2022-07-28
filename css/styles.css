@@ -643,7 +643,7 @@ main .textos_main_galeria_tematica {
 
 /*--------PAGES NOSOTROS----------*/
 
-.text_nosotros h2 {
+.text_creador h5 {
   color: black;
   font-family: "Roboto", sans-serif;
   font-style: bold;
@@ -651,7 +651,69 @@ main .textos_main_galeria_tematica {
   font-size: 25px;
 }
 
-.text_nosotros h3 {
+.text_creador h6 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.text_creador p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .text_comentarioh2 {
+    font-size: 35px;
+  }
+
+  .text_comentario h3 {
+    font-size: 30px;
+  }
+
+  .text_creador h5 {
+    font-size: 35px;
+  }
+
+  .text_creador h6 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text_comentario h2 {
+    font-size: 45px;
+  }
+
+  .text_comentario h3 {
+    font-size: 40px;
+  }
+
+  .text_creador h5 {
+    font-size: 45px;
+  }
+
+  .text_creador h6 {
+    font-size: 40px;
+  }
+}
+/****** FIN PAGINA NOSOTROS ******/
+
+/*--------PAGES COMENTARIOS----------*/
+.text_comentario h2 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.text_comentario h3 {
   color: black;
   font-family: "Roboto", sans-serif;
   font-style: bold;
@@ -660,27 +722,26 @@ main .textos_main_galeria_tematica {
 }
 
 @media (min-width: 768px) {
-
-  .text_nosotros h2 {
+  .text_comentarioh2 {
     font-size: 35px;
   }
 
-  .text_nosotros h3 {
+  .text_comentario h3 {
     font-size: 30px;
   }
 }
 
 @media (min-width: 1024px) {
-
-  .text_nosotros h2 {
+  .text_comentario h2 {
     font-size: 45px;
   }
 
-  .text_nosotros h3{
+  .text_comentario h3 {
     font-size: 40px;
   }
 }
-/****** FIN PAGINA NOSOTROS ******/
+
+/*--------FIN PAGES COMENTARIOS----------*/
 
 /*--------SUB PAGES COCINATE ALGO----------*/
 /* MOBILE FIRST */
@@ -734,7 +795,7 @@ main .textos_main_cocinate_algo {
   text-align: center;
   color: #b73413;
   margin-top: 40px;
-  margin-left: 30px; 
+  margin-left: 30px;
 }
 
 @media (min-width: 768px) {
@@ -809,7 +870,6 @@ main .textos_main_preparate_un_trago {
   font-size: 35px;
   color: black;
 }
-
 
 @media (min-width: 768px) {
   .textos_main_preparate_un_trago h2 {
